@@ -16,5 +16,6 @@ Basic DevKit I made to learn about PIC18F microcontroller.
 - Add 12V Booster support.
 - Add distance sensor.
 - Add Gyro sensor.
-- Add WIFI/LoRA/Bluetooth support (?).
-- Add ESP32 Plug-In header (?).
+- Add built-in UART w/ CH340.
+- Add WIFI/LoRA/Bluetooth by ESP32 support (?).
+  
