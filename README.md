@@ -1,6 +1,8 @@
-DevKit PIC18F/USB
+DevKit PIC18F/USB-C
 =====================
-Basic DevKit I made to learn about PIC18F microcontroller.
+Basic USB-C DevKit I made to learn about PIC18F45XX microcontroller.
+
+![overview](https://github.com/thetrung/DevKit_PIC18F/blob/master/Overview_DevKit_PIC18F.png)
 
 ### 1. Basic functionality :
 - USB-powered 5V supply.
