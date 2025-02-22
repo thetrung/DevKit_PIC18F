@@ -12,6 +12,7 @@ Basic USB Type-B DevKit I made to learn about PIC18F45XX microcontroller.
 - Reset Button -> Trigger MLCR-pin pull-down -> GND.
 - Programming/Debugging with PICKIT-3 via ICSP pins.
 - 5 pluggable PORTS : RA, RB, RC, RD, RE.
+- LED at RD0 for Blink Test.
 
 ![3d_parts](https://github.com/thetrung/DevKit_PIC18F/blob/master/Images/3D_View.png)
 ![back](https://github.com/thetrung/DevKit_PIC18F/blob/master/Images/Back.png)
