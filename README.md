@@ -2,7 +2,7 @@ DevKit PIC18F/USB-B
 =====================
 Basic USB Type-B DevKit I made to learn about PIC18F45XX microcontroller.
 
-![overview](https://github.com/thetrung/DevKit_PIC18F/blob/master/Images/Sch_DevKit_PIC18F_rev.2.png)
+![overview](https://github.com/thetrung/DevKit_PIC18F/blob/master/Images/Sch_DevKit_PIC18F.png)
 
 **It was initially for USB Type-C, but seem like I was wrong about how popular it actually is in my local stores, so change of plan : switching back to USB Type-B from Rev.2 for ease of self-soldering the boards. But very funny, on Rev.2, while changing the USB-Port, I realize how everything seem to be a little bit closer to what I think it should be. There were a short-circuit (for the 2nd-time) that I didn't realize right inside the USB-port.**
 
@@ -13,7 +13,8 @@ Basic USB Type-B DevKit I made to learn about PIC18F45XX microcontroller.
 - Programming/Debugging with PICKIT-3 via ICSP pins.
 - 5 pluggable PORTS : RA, RB, RC, RD, RE.
 
-![3d_parts](https://github.com/thetrung/DevKit_PIC18F/blob/master/Images/3D_Components.png)![front](https://github.com/thetrung/DevKit_PIC18F/blob/master/Images/Front.png)![back](https://github.com/thetrung/DevKit_PIC18F/blob/master/Images/Back.png)
+![3d_parts](https://github.com/thetrung/DevKit_PIC18F/blob/master/Images/3D_View.png)
+![back](https://github.com/thetrung/DevKit_PIC18F/blob/master/Images/Back.png)
 
 ### 2. TODO / Future extensions :
 - Add Array : 
