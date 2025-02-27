@@ -4424,6 +4424,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 154.94) (xy 238.76 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44928b55-2ca3-4c28-a394-afad08486628")
+	)
+	(wire
+		(pts
 			(xy 120.65 119.38) (xy 116.84 119.38)
 		)
 		(stroke
@@ -4461,6 +4471,16 @@
 			(type default)
 		)
 		(uuid "4884572d-0ada-4cde-83df-eee71507bcab")
+	)
+	(wire
+		(pts
+			(xy 232.41 154.94) (xy 238.76 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aaae632-a26b-4585-9bd8-b2abc5c676a3")
 	)
 	(wire
 		(pts
@@ -4581,16 +4601,6 @@
 			(type default)
 		)
 		(uuid "6c4feb82-43ed-44a8-a9df-3a0bf308c0d4")
-	)
-	(wire
-		(pts
-			(xy 232.41 148.59) (xy 232.41 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70349d3c-ddec-4574-a9fd-b1931d1f2ac1")
 	)
 	(wire
 		(pts
@@ -6571,72 +6581,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 232.41 148.59 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3281f671-80e5-416a-8b74-7466ecab3a17")
-		(property "Reference" "#PWR10"
-			(at 232.41 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 232.41 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 232.41 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "368fe304-6ff2-49ff-8723-2806600132a5")
-		)
-		(instances
-			(project "DevKit_PIC18F"
-				(path "/495af0d8-3788-4f6a-8ee9-f4c61668daf8"
-					(reference "#PWR10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x08_Socket")
 		(at 208.28 162.56 0)
 		(unit 1)
@@ -7625,6 +7569,72 @@
 			(project ""
 				(path "/495af0d8-3788-4f6a-8ee9-f4c61668daf8"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 238.76 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b41536bc-35c3-4e33-b66f-0ace7d806e31")
+		(property "Reference" "#PWR10"
+			(at 238.76 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ba45c81-7213-4e37-b176-984976bbdeb7")
+		)
+		(instances
+			(project "DevKit_PIC18F"
+				(path "/495af0d8-3788-4f6a-8ee9-f4c61668daf8"
+					(reference "#PWR10")
 					(unit 1)
 				)
 			)
